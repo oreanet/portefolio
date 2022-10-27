@@ -1,0 +1,18 @@
+@import url("composants/avatar.css");
+@import url("composants/navbar.css");
+@import url("composants/buttons.css");
+@import url("composants/containers.css");
+@import url("composants/banner.css");
+@import url("css_sous_pages/blender.css");
+@import url("css_sous_pages/photoshop.css");
+@import url("css_sous_pages/procreate.css");
+@import url("css_sous_pages/more_professional.css");
+@import url("css_sous_pages/more_personnal.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
