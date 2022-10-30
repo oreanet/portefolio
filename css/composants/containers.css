@@ -1,0 +1,171 @@
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 200px;
+    background-color:#000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.skills p {
+    padding: 15px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.skills p:hover{
+    border: 2px solid #fff;
+}
+
+
+
+@media (max-width: 1920px){
+    .AboutMe {
+        height:1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../assets/lavande\ crop.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .AboutMe h3{
+        margin-top: 50px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        transition: 1s;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.64);
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px solid #fff;
+    }
+    
+    .AboutMe h3:hover {
+        letter-spacing: 15px;
+    }
+    
+    .aboutmebox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 90px;
+        justify-content: center;
+        height: 600px;
+        width: 90%;
+        color: #fff;
+    }
+    
+    .aboutme-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 100%;
+        border: 3px solid #fff;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.644);
+    }
+    
+    .aboutme-content h5 {
+        padding: 50px;
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    .aboutme-content:hover {
+        background-color: rgba(0, 0, 0, 0.647);
+        transform:scale(110%);
+        transition: 0.5s;
+    
+    }
+    
+    .aboutmebox p {
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px){
+
+    .AboutMe {
+        height:1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../assets/lavande\ crop.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .AboutMe h3{
+        margin-top: 50px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        transition: 1s;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.64);
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px solid #fff;
+    }
+    
+    .AboutMe h3:hover {
+        letter-spacing: 15px;
+    }
+    
+    .aboutmebox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+        height: 600px;
+        width: 90%;
+        color: #fff;
+    }
+    
+    .aboutme-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 60%;
+        border: 3px solid #fff;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.644);
+    }
+    
+    .aboutme-content h5 {
+        padding: 20px;
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    .aboutme-content:hover {
+        background-color: rgba(0, 0, 0, 0.647);
+        transform:scale(105%);
+        transition: 0.5s;
+    
+    }
+    
+    .aboutmebox p {
+        text-align: center;
+        width: 60%;
+    }
+}

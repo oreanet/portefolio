@@ -1,0 +1,28 @@
+main .carousel{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: black;
+    
+}
+
+
+main h5{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px black;
+}
+
+
+main p{
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 4px black;
+}
+
+main .carousel img{
+    margin:auto;
+    justify-content: center;
+}
+
+main {
+    padding: 10px;  
+    background-color: black;
+}

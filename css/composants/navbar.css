@@ -7,8 +7,7 @@ nav {
     color:#fff;
 }
 
-nav ul,
-a {
+nav ul ,a {
     display: flex;
     gap: 60px;
     list-style: none;

@@ -1,0 +1,35 @@
+footer {
+    height:180px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    align-items: center;
+    padding: 0 50px;
+}
+
+footer .logo {
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+footer.logo:hover {
+    transform:scale(110%);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+    border-left: 2px solid #fff;
+}
+
+footer ul a {
+    font-size: 8px;
+}
+
+footer ul a:hover {
+    transform: scale(110%);
+}

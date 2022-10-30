@@ -1,4 +1,6 @@
-.grille {
+@media (max-width: 1920px){ 
+
+.container-grille {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgb(0, 0, 0);
@@ -6,29 +8,64 @@
     padding-left: 5%;
     padding-right: 5%;
     height: 800px;
+    grid-gap: 20px;
 }
 
-.lumiere-3D    {
-    margin-left: 150px;
+.lumiere-3D {
     width: auto;
-    height: 50%;
+    height: 100%;
 }
 
 .appartement-3D {
     width: auto;
+    height: 100%;
+}
+
+.container-grille .card {
     height: 50%;
+    width: auto;
+    justify-self: center;
 }
 
-.texte-lumiere{
-    color: white;
-    position: absolute;
-    margin-left: 14%;
-    margin-top: 570px;
+.container-grille .card a{
+    width:fit-content;
+    margin: 0 auto;
 }
 
-.texte-appart{
-    margin-top: 570px;  
-    margin-left: 57%;
-    position: absolute;
-    color:white;
 }
+
+@media (max-width: 1180px){
+    .container-grille {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(0, 0, 0);
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        grid-gap: 20px;
+        height: 70%;
+    }
+    
+    .lumiere-3D {
+        width: auto;
+        height: 100%;
+    }
+    
+    .appartement-3D {
+        width: auto;
+        height: 100%;
+    }
+    
+    .container-grille .card {
+        height: 100%;
+        max-height: 400px;
+        margin-bottom: 10%;
+    }
+
+    .container-grille .card a{
+        width:fit-content;
+        margin: 0 auto;
+    }
+
+}
+

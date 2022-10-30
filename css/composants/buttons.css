@@ -1,0 +1,15 @@
+.aboutmebox button {
+    height: 30px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.aboutmebox button:hover {
+    color:#000;
+    background: #fff;
+}
